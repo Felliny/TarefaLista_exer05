@@ -1,11 +1,12 @@
 package View;
 
+import Biblioteca.ListaInt.ListaInt;
 import Controller.ListaMaior;
-import model.Lista;
+
 
 public class Main {
     public static void main(String[] args) {
-        Lista listaL= new Lista();
+        ListaInt listaL= new ListaInt();
 
         listaL.addFirst(16);
         listaL.addFirst(7);

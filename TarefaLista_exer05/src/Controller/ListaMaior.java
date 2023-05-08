@@ -1,6 +1,7 @@
 package Controller;
 
-import model.Lista;
+
+import Biblioteca.ListaInt.ListaInt;
 
 public class ListaMaior {
 
@@ -8,7 +9,7 @@ public class ListaMaior {
         super();
     }
 
-    public void checarMaiores(Lista listaL){
+    public void checarMaiores(ListaInt listaL){
         int tamanho= listaL.size();
         int aux= 0;
         for(int i=0; i< tamanho; i++){
